@@ -1,0 +1,52 @@
+research_task:
+  description: >
+    Research the company {company} as a long-term investment.
+    
+    Gather:
+    - Business overview
+    - Industry information
+    - Major competitors
+    - Recent developments
+    - Key financial metrics
+    - Growth opportunities
+    - Potential challenges
+
+  expected_output: >
+    A structured research brief containing factual information
+    about the company and its industry.
+
+analysis_task:
+  description: >
+    Analyze the research findings for {company}.
+
+    Identify:
+    - Strengths
+    - Weaknesses
+    - Opportunities
+    - Risks
+    - Bull case
+    - Bear case
+
+    Provide a balanced investment assessment.
+
+  expected_output: >
+    A detailed investment analysis including strengths,
+    weaknesses, opportunities, risks, bull case,
+    and bear case.
+
+memo_task:
+  description: >
+    Create a professional investment memo for {company}
+    using the research brief and investment analysis.
+
+    The memo should include:
+    - Executive Summary
+    - Company Overview
+    - Bull Case
+    - Bear Case
+    - Key Risks
+    - Conclusion
+
+  expected_output: >
+    A professional investment memo suitable for
+    presentation to an investment committee.
